@@ -1,0 +1,79 @@
+a:hover {
+  color: black;
+}
+a {
+  color: black;
+}
+header {
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+#search-input {
+  line-height: 52px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+}
+.list-adding-link {
+  border: 1px rgba(128, 128, 128, 0.3) solid;
+  padding: 10px 25px;
+}
+.login-link {
+  padding: 10px;
+}
+.search-btn1 {
+  width: 100%;
+  height: 52px;
+  background-color: #0ec6d5;
+}
+.agent-img {
+  border-radius: 50%;
+}
+.agent-name {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.agent-btn {
+  padding: 13px;
+}
+.agent-btn-holder {
+  height: 52px;
+  padding-top: 12px;
+  background-color: rgb(241, 241, 241);
+}
+.agent-btn-holder:hover {
+  background-color: #0ec6d5;
+}
+.work-place {
+  text-align: center;
+  font-weight: lighter;
+  text-transform: capitalize;
+  margin-top: 3px;
+}
+.listing-amount {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.listing-amount {
+  margin-right: 8px;
+}
+.card-body {
+  padding: 0;
+  padding-top: 8px;
+}
+#register-agent-img {
+  width: 100%;
+}
+.register-btn {
+  height: 52px;
+  background-color: #0ec6d5;
+}
+.form-control {
+  background-color: rgb(241, 241, 241);
+}

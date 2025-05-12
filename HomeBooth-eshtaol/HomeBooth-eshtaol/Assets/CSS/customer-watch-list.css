@@ -1,0 +1,12 @@
+a:hover {
+  color: black;
+}
+a {
+  color: black;
+}
+.jumbotron {
+  background-color: rgb(250, 250, 250) !important;
+}
+body {
+  background-color: rgb(250, 250, 250);
+}

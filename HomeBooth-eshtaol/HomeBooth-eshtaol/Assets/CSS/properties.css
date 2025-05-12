@@ -1,0 +1,86 @@
+a:hover {
+  color: black;
+}
+a {
+  color: black;
+}
+.jumbotron {
+  background-color: rgb(250, 250, 250) !important;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: rgb(245, 244, 240);
+}
+.fas {
+  color: #0ec6d5;
+}
+.houseList {
+  display: flex;
+  width: 100%;
+  max-width: 98rem;
+  padding: 3rem;
+  margin-top: 3rem;
+  background-color: #fff;
+  box-shadow: 0 1.4rem 8rem rgb(0, 0, 0, 0.2);
+  align-items: center;
+  border-radius: 0.8rem;
+}
+.houseImg {
+  min-width: 22rem;
+  max-width: 22rem;
+  height: 15rem;
+  position: relative;
+}
+.houseImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0.3rem;
+}
+
+.houseHeader {
+  text-transform: capitalize;
+  margin: 1rem 0 2rem 2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.houseDescription {
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+#price {
+  font-weight: bold;
+  color: black;
+  text-align: right;
+}
+
+@media screen and (max-width: 1068px) {
+  .houseList {
+    max-width: 70rem;
+  }
+
+  .houseImg {
+    min-width: 30rem;
+    max-width: 30rem;
+  }
+}
+@media screen and (max-width: 868px) {
+  .houseList {
+    max-width: 30rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .houseList {
+    padding: 2.5rem;
+    flex-direction: column;
+  }
+
+  .houseImg {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body{
+ overflow-x: hidden;   
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 0px;
+  border: 0;
+  color: rgb(202, 197, 191);
+}
+#cantbe {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 30px;
+}
+#cheader {
+  font-family: "Poppins";
+  font-weight: 500px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#header-title {
+  color: black;
+  font-family: "Poppins";
+  font-size: 30px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+#txtpic {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.53;
+  text-align: center;
+  color: white;
+}
+#concard {
+
+  position:absolute;
+  left :50%;
+  transform: translateX(-50%) translateY(-20%);
+  /* right: 150; */
+  /* left: 150; */
+  
+}
+#contcard a {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+}
+
+.form-control {
+  height: 52px;
+  line-height: 50px;
+  border: 1px solid #f8f8f8;
+  padding: 0 20px;
+  max-width: 100%;
+  background-color: #f8f8f8;
+  font-weight: 500;
+}
+#message {
+  height: 100%;
+}
+
+#map {
+  margin-top: 550px;
+  width: 100%;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}

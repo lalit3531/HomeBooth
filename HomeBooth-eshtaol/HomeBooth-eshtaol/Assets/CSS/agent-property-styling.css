@@ -1,0 +1,144 @@
+a:hover {
+  color: black;
+}
+a {
+  color: black;
+}
+body {
+  background-color: rgb(250, 250, 250);
+}
+.jumbotron {
+  background-color: rgb(250, 250, 250) !important;
+}
+.agent-pic {
+  width: 100%;
+}
+
+.input-field {
+  line-height: 52px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  padding-left: 20px;
+}
+.message-area {
+  line-height: 24px;
+  padding-top: 5px;
+}
+
+.list-adding-link {
+  border: 1px rgba(128, 128, 128, 0.3) solid;
+  padding: 10px 25px;
+}
+.login-link {
+  padding: 10px;
+}
+.search-btn1 {
+  width: 100%;
+  height: 52px;
+  background-color: #0ec6d5;
+}
+.agent-property-img {
+  width: 100%;
+}
+.agent-name {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+.agent-btn {
+  padding: 13px;
+}
+.agent-btn-holder {
+  height: 52px;
+  padding-top: 12px;
+  background-color: rgb(241, 241, 241);
+}
+.agent-btn-holder:hover {
+  background-color: #0ec6d5;
+}
+.work-place {
+  text-align: center;
+  font-weight: lighter;
+  text-transform: capitalize;
+  margin-top: 3px;
+}
+.listing-amount {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.listing-amount {
+  margin-right: 8px;
+}
+.card-body {
+  padding: 0;
+  padding-top: 8px;
+}
+#register-agent-img {
+  width: 100%;
+}
+.register-btn {
+  height: 52px;
+  background-color: #0ec6d5;
+}
+.fas {
+  color: #0ec6d5;
+  padding-right: 10px;
+}
+
+.rating-heading {
+  font-weight: 500;
+}
+#average-ratings {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.star-clickable {
+  font-size: 30px;
+  padding: 12px;
+  margin: 5px;
+  color: rgb(187, 187, 187);
+  border-radius: 5px;
+}
+.star-clicked {
+  background-color: #f6b500;
+  color: white;
+}
+
+.star-orange {
+  color: #f6b500;
+}
+
+.stars {
+  width: 30%;
+}
+.stars span {
+  font-size: 15px;
+}
+.bar-container {
+  width: 48%;
+  background-color: rgb(233, 233, 233);
+  height: 5px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.percent {
+  width: 20%;
+}
+.percent span {
+  font-size: 15px;
+}
+.bar-1,
+.bar-2,
+.bar-3,
+.bar-4,
+.bar-5 {
+  width: 0%;
+  height: 5px;
+  background-color: #f6b500;
+}

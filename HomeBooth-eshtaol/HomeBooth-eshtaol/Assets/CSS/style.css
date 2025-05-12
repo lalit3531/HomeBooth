@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+.background_image {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/Assets/img/housebg.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#inputs {
+  margin-top: 1em;
+  padding: 10em;
+}
+#broker_name{
+  width: 20%;
+  height: 10%;
+  padding: 13px;
+  border-radius: 4px;
+  border: 2px solid #1ca0b8;
+  font-size: 15px;
+}
+#dropdownMenuButton{
+  height: 100%;
+}
+a:hover {
+  color: black;
+}
+a {
+  color: black;
+}
+#h4-text{
+  text-align: center;
+  font-size: 50px;
+  padding-top: 1em;
+  color: azure;
+}
+h1 {
+  text-align: center;
+  font-size: 75px;
+  padding-top: 1em;
+  color: azure;
+}
+
+.content {
+  position: absolute;
+}
+/* registration */
+body {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #212529;
+  text-align: left;
+  background-color: #f5f8fa;
+}
+
+
+.my-form {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.my-form .row {
+  margin-left: 0;
+  margin-right: 0;
+}

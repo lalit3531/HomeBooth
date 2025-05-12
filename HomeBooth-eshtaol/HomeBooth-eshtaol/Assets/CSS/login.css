@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+nav a {
+  color: black;
+}
+#thecard {
+
+    margin-top: 250px;
+    margin-bottom: 300px;
+    height: 38rem;
+    
+}  
+#cardbody{
+    font-family: "Poppins";
+    color: #696969;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+h2{
+  color: black;
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 500;
+  
+}
+.card-body a{
+color:#696969;
+}
+.form-control{
+  line-height: 50px;
+  border: 1px solid #f8f8f8;
+  background-color: #f8f8f8;
+  font-weight: 500;
+  border-radius: .25rem;
+ 
+}
+input[type="email"]::placeholder {
+  font-family: "Poppins";
+  color: #787878;
+  font-size: 14px;
+}
+input[type="password"]::placeholder {
+  font-family: "Poppins";
+  color: #787878;
+  font-size: 14px;
+}

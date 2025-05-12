@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemakrs - HomeBooth</title>
+
+    <!-- Bootstrap CSS CDN  -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Font Awesome CDN -->
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/618286edad.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./Assets/CSS/agents-styling.css">
+    <link rel="stylesheet" href="./Assets/CSS/footer.css">
+
+</head>
+
+<body>
+    <div class="d-flex justify-content-center" style="background-color:rgb(255, 255, 255)">
+        <div class="col-md-9">
+            <nav class="navbar navbar-expand-md ">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="./Assets/img/001.png" alt="" height="50px" srcset="">
+                    <img src="./Assets/img/002.png" height="75px" height="200px" alt="" srcset="">
+                </a>
+
+                <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
+                    data-target="#colNav" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="colNav">
+                    <ul class="navbar-nav flex-column flex-md-row">
+                        <li class="nav-item ml-auto mr-2">
+                            <a class="nav-link" href="properties.html">Property</a>
+                        </li>
+                        <li class="nav-item ml-auto mr-2">
+                            <a class="nav-link" href="agents.html">Meals</a>
+                        </li>
+                        <li class="nav-item ml-auto mr-2">
+                            <a class="nav-link" href="testimonials.html">About Us</a>
+                        </li>
+                        <li class="nav-item ml-auto mr-2">
+                            <a href="contact.html" class="nav-link ">Contact Us</a>
+                        </li>
+                    </ul>
+
+
+                    <!-- To the left side side -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item ml-auto mr-2" id="signinb" >
+                            <a class="nav-link" href="login.html">
+                                <div class="login-link" >
+                                    <i class="far fa-user-circle"></i>
+                                    SIGN IN
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item ml-auto mr-2" id="logoutb" style="display: none;">
+                            <a class="nav-link" href="#">
+                                <div class="login-link">
+                                    <i class="far fa-user-circle"></i>
+                                    LOG OUT
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item ml-auto mr-2">
+                            <a class="nav-link" href="#">
+                                <div class="list-adding-link">
+                                    Sign-Up
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0">
+        <header>
+            <img src="./Assets/img/peakpx.jpg" alt=""  width="100%"length="10%"srcset="">
+        </header>
+<section class="py-5" style="background-color:#f9f9f9;">
+  <div class="container">
+    <h2 class="text-center mb-5 text-success">Meet Our Homemakers</h2>
+    <div class="row">
+
+      <!-- Homemaker 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Mrs. Sunita Sharma – <small class="text-muted">Mumbai</small></h5>
+            <p class="card-text">A caring homemaker from Andheri with 15 years of experience making North Indian meals for students.</p>
+            <p><strong>Food:</strong> Dal, sabzi, roti, rice & sweets. Jain options available.</p>
+            <a href="agent-detail.html" class="btn btn-success mt-auto">Book Meal</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Homemaker 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Aunty Latha Nair – <small class="text-muted">Bangalore</small></h5>
+            <p class="card-text">Originally from Kerala, now in Koramangala. Known for spice-balanced, hygienic South Indian cooking.</p>
+            <p><strong>Food:</strong> Idli, dosa, sambar, puttu & avial. Breakfast + dinner combos.</p>
+            <a href="#book-meal" class="btn btn-success mt-auto">Book Meal</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Homemaker 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Mrs. Farzana Khan – <small class="text-muted">Hyderabad</small></h5>
+            <p class="card-text">Expert in Hyderabadi dishes, running a popular student-friendly tiffin service.</p>
+            <p><strong>Food:</strong> Biryani, haleem, khichdi & curd rice. Veg/non-veg available.</p>
+            <a href="#book-meal" class="btn btn-success mt-auto">Book Meal</a>
+          </div>
+        </div>
+    </div>
+
+      <!-- Homemaker 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Meena Patel – <small class="text-muted">Ahmedabad</small></h5>
+            <p class="card-text">Nutrition-conscious homemaker providing healthy Gujarati meals to students.</p>
+            <p><strong>Food:</strong> Dal, kadhi, thepla, bhakhri & seasonal veggies.</p>
+            <a href="#book-meal" class="btn btn-success mt-auto">Book Meal</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Homemaker 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Mrs. Indrani Ghosh – <small class="text-muted">Kolkata</small></h5>
+            <p class="card-text">Retired teacher and talented cook offering delicious Bengali comfort food.</p>
+            <p><strong>Food:</strong> Shukto, luchi-alur dom, macher jhol & mishti doi.</p>
+            <a href="#book-meal" class="btn btn-success mt-auto">Book Meal</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Homemaker 6 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Shobha Reddy – <small class="text-muted">Pune</small></h5>
+            <p class="card-text">Modern homemaker with flexible plans and multi-cuisine experience.</p>
+            <p><strong>Food:</strong> North Indian, Andhra, and occasional Continental dishes.</p>
+            <a href="#book-meal" class="btn btn-success mt-auto">Book Meal</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+        <div class="main-container d-flex justify-content-center mt-5 pt-5">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-11">
+                                <div class="card">
+                                    <div class="card-body m-4">
+                                        <h5 class="card-title">
+                                            Search
+                                        </h5>
+
+                                        <div class="row p-3">
+                                            <input id="search-input" value="" name="s" type="text"
+                                                placeholder="Enter Keyword...">
+
+                                        </div>
+                                        <div class="row pl-3 pr-3">
+                                            <button type="button" class="btn search-btn1">Search</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class=" col-md-11 mt-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <img id="register-agent-img" src="./Assets/img/Register Agent.jpg" alt=""
+                                            srcset="">
+                                        <p class="card-title text-center">
+                                            Want to work with us
+                                        </p>
+
+                                        <div class="row p-3 d-flex justify-content-center">
+                                            <button type="button" class="btn btn-lg register-btn">Register</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class=" col-md-11 mt-4">
+                                <div class="card">
+                                    <div class="card-body m-4 mb-1">
+                                        <h5 class="card-title">
+                                            Latest Posts
+                                        </h5>
+
+                                        <div class="row p-3">
+                                            <div class="col-4 p-0">
+                                                <img src="./Assets/img/latest-house-1.jpg" width="100%" height="80%"
+                                                    alt="" srcset="">
+                                            </div>
+
+                                            <div class="col-8">
+                                                We are Offering the Best RED
+                                                <p class="latest-post-date">
+                                                    February 8, 2020
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row p-3">
+                                            <div class="col-4 p-0">
+                                                <img src="./Assets/img/latest-house-1.jpg" width="100%" height="80%"
+                                                    alt="" srcset="">
+                                            </div>
+
+                                            <div class="col-8">
+                                                We are Offering the Best RED
+                                                <p class="latest-post-date">
+                                                    February 8, 2020
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row p-3">
+                                            <div class="col-4 p-0">
+                                                <img src="./Assets/img/latest-house-1.jpg" width="100%" height="80%"
+                                                    alt="" srcset="">
+                                            </div>
+
+                                            <div class="col-8">
+                                                We are Offering the Best RED
+                                                <p class="latest-post-date">
+                                                    February 8, 2020
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-8 p-0">
+                        <div class="row main-container-div">
+
+                            <div class="card-holder col-md-4 m-3 m-md-0 p-0">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-center">
+                                            <img class="agent-img" src="./Assets/img/132.jpg" alt="" srcset="">
+                                        </div>
+                                        <h5 class="card-title agent-name">
+                                            Aya Magdy
+                                        </h5>
+                                        <p class="work-place">
+                                            Real estate broker
+                                        </p>
+                                        <hr>
+                                        <p class="card-text d-flex justify-content-center">
+                                            b.gordon@homeid.com
+                                        </p>
+                                        <p class="d-flex justify-content-center">
+                                            +98 0390 909 039
+                                        </p>
+                                        <div class="btn agent-btn pb-0" style="width: 100%;">
+                                            <div class="row agent-btn-holder d-flex justify-content-center">
+                                                <div>
+                                                    Listing Properties
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-left pt-5 pb-5 d-flex align-self-stretch"
+        style="background-color:rgb(39, 39, 39); color: rgb(255, 255, 255);">
+        <!-- Grid container -->
+        <div class="container-fluid pt-4 pl-0">
+            <!--Grid row-->
+            <div class="row">
+                <div class="col-2 p-0"></div>
+                <!--Grid column-->
+                <div class="col-md-2 mb-4 pl-md-0 pl-4 pr-5">
+                    <h4>HomeBooth</h4>
+                    <p class="gray-style">
+                        22,Lorem ipsum dolor sit amet consectetur adipisicing
+                    </p>
+                    <p class="gray-style">
+                        (541) 754-3010
+                    </p>
+                    <p class="gray-style">
+                        info@hsaf.com
+                    </p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 mb-4 pl-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Popular Searches</h5>
+
+                            <ul>
+                                <li>
+                                    <a href="#!" class="gray-style">Apartment for Rent</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="gray-style"> Apartment for Rent</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="gray-style">Apartment for Rent</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="gray-style">Apartment for Rent</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Quick links</h5>
+                            <ul>
+                                <li>
+                                    <a href="#!" class="gray-style">Contact Support</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="gray-style">Contact Support</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="gray-style">Contact Support</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="gray-style">Contact Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 mb-4 pl-4 pl-md-0">
+                    <h5>Sing Up for our Newsletter</h5>
+                    <p class="gray-style">
+                        Lorem ipsum dolor sit amet, consecte tur cing elit. Suspe ndisse suscipit sagittis
+
+                    </p>
+                    <div>
+                        <form action="">
+                            <input type="email" id="subscriber-email" placeholder="Your email" required>
+                            <input type="submit" id="subscriber-button" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="row col-md-10 mt-5 ">
+                        <div class="col-3">
+                            <i class="fab fa-facebook-f fa-2x gray-style"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fab fa-twitter fa-2x gray-style"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fab fa-linkedin-in fa-2x gray-style"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fab fa-instagram fa-2x gray-style"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-10  ml-auto pl-0 mt-3 mb-3 pt-5">
+                    <div class="row justify-content-between self-align-end col-10">
+                        <div class="self-align-start">
+                            <a href="#" class="pr-5 gray-style">Terms of Use</a>
+                            <a href="#" class="gray-style">Privacy Policy</a>
+
+                        </div>
+                        <div class="self-align-end gray-style mr-5">
+                            &copy; 2021 HomeGet. All rights reserved
+                        </div>
+                    </div>
+                </div>
+
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="./Assets/js/logout.js"></script>
+    <script src="./Assets/js/Register-agent.js"></script>
+    <script src="./Assets/js/agent-veiwer.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+/* General Body Style */
+body.register_body {
+    background: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+
+/* Navbar Styling */
+.navbar-re {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-re .navbar-brand {
+    color: #007bff;
+    font-weight: 500;
+}
+
+.navbar-re .nav-link {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar-re .nav-link:hover {
+    color: #007bff;
+}
+
+/* Main Form Area */
+.my-form .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.my-form .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.my-form .form-group label {
+    font-weight: 500;
+    color: #333;
+}
+
+.my-form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    transition: border-color 0.3s;
+}
+
+.my-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+/* Dropdown Styling */
+#subList {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    color: #495057;
+}
+
+/* Register Button */
+#regbtn {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#regbtn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .my-form .card {
+        padding: 20px 15px;
+    }
+
+    .my-form .card-header {
+        font-size: 20px;
+    }
+}
